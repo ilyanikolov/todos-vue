@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic');
+
+* {
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EDEFF5;
+	//background: url("../assets/light_noise_diagonal.png");
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #2c3e50;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+::-webkit-scrollbar {
+	width: 0;
+	//position: absolute;
+	position: fixed;
+}
+
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: inherit;  /* Preferred icon size */
+	display: inline-block;
+	//line-height: inherit;
+	text-transform: none;
+	letter-spacing: normal;
+	word-wrap: normal;
+	white-space: nowrap;
+	direction: ltr;
+	vertical-align: middle;
+	/* Support for all WebKit browsers. */
+	-webkit-font-smoothing: antialiased;
+	/* Support for Safari and Chrome. */
+	text-rendering: optimizeLegibility;
+
+	/* Support for Firefox. */
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Support for IE. */
+	font-feature-settings: 'liga';
+}
