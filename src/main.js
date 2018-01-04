@@ -11,7 +11,7 @@ import axios from 'axios'
 
 import './styles/main.scss'
 
-axios.defaults.baseURL = 'http://api.openweathermap.org/data/2.5'
+axios.defaults.baseURL = 'https://api.openweathermap.org/data/2.5'
 axios.defaults.params = {
 	appid: 'b76499690ebcc33429b017b9ec5cee77',
 	units: 'metric'
