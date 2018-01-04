@@ -124,7 +124,8 @@
 				return {
 					main: weather.main,
 					desc: weather.description,
-					icon: 'owi owi-' + weather.icon
+					icon: 'owi owi-' + weather.icon,
+					iconUrl: 'http://openweathermap.org/img/w/' + weather.icon + '.png'
 				}
 			},
 			main(item) {
@@ -274,6 +275,12 @@
 		&-main {
 			.icon, .temp {
 				font-size: 11rem;
+			}
+
+			.icon {
+				img	{
+					height: 150px;
+				}
 			}
 
 			.temp {
