@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,500');
+@import "owi";
+@import "flaticon";
+
 
 * {
-	box-sizing: border-box;
+	//box-sizing: border-box;
 	outline: none;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	//font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: inherit;
+	user-select: none;
 }
 
 html, body {
@@ -12,27 +19,27 @@ html, body {
 	height: 100%;
 }
 
+html {
+	font-size: 62.5%;
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #EDEFF5;
-	//background: url("../assets/light_noise_diagonal.png");
+	background-color: #f8f8f8;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;
-	color: #2c3e50;
+	//color: #2c3e50;
+	color: #d5d4d0;
+	font-size: 2rem;
+	line-height: 1.6;
 }
 
 ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-}
-
-::-webkit-scrollbar {
-	width: 0;
-	//position: absolute;
-	position: fixed;
 }
 
 

@@ -123,7 +123,7 @@
 		height: 40px;
 
 		&.delete {
-			opacity: .1;
+			opacity: 0;
 			/*transition: visibility .3s ease-in-out;*/
 		}
 
